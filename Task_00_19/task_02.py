@@ -77,7 +77,7 @@ if __name__ == '__main__':
     print_node(node2)
 
     start_time = time.time()
-    print(f'Final Number: {main(node1, node2).val}')
+    print(f'Final Number: {main(node1, node2)}')
     print(f'--- {(time.time() - start_time)} seconds ---')
 
     print_node(main(node1, node2))
